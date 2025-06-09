@@ -39,15 +39,15 @@ mode = rest         ; Options: 'rest', 'socket', 'soap'
 log_file = log.txt  ; Log file path (used if output = log)
 ```
 
-### 🌐 Modes Explained__
-🔹 REST Mode__
+## 🌐 Modes Explained
+### REST Mode
 A Flask server that echoes all HTTP requests.
 
 ```bash
 python ListeningApp.py
 ```
 
-Accepts GET, POST, PUT, DELETE, PATCH__
+Accepts GET, POST, PUT, DELETE, PATCH
 Captures method, headers, and body
 
 Example using curl:
@@ -56,12 +56,11 @@ Example using curl:
 curl -X POST http://localhost:5000/test -d "hello=world"
 ```
 
-🔸 Socket Mode__
+### Socket Mode
 A TCP server that reads newline-terminated messages.
+Use any TCP client to send messages.
 
-Use any TCP client to send messages ending in
-
-Responds with Socket: "Message received"
+> Responds with Socket: "Message received"
 
 Example using Python client:
 ```bash
@@ -80,7 +79,7 @@ Headers: {'Content-Type': 'application/x-www-form-urlencoded', ...}
 Body: hello=world
 ```
 
-### 📁 Project Structure
+## 📁 Project Structure
 ```bash
 .
 ├── ListeningApp.py          # Main application
@@ -88,8 +87,9 @@ Body: hello=world
 └── log.txt         # Log file (created at runtime if needed)
 ```
 
-### 📜 License
+## 📜 License
 MIT License. See LICENSE file for details.
 
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## 🤝 Contributing
+Pull requests are welcome. 
+For major changes, please open an issue first to discuss what you would like to change.
