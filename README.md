@@ -1,12 +1,12 @@
 # 🛰️ Python Multi-Mode Traffic Listener
 
-A lightweight Python server that listens for incoming **REST** or **Socket** traffic on a specified port. Outputs can be printed to the console or logged to a file, based on configuration.
+A lightweight Python server that listens for incoming **REST** or **WebSocket** traffic on a specified port. Outputs can be printed to the console or logged to a file, based on configuration.
 
 ---
 
 ## ⚙️ Features
 
-- 🔁 Multi-mode support: **REST** and **Socket**
+- 🔁 Multi-mode support: **REST** and **WebSocket**
 - 📄 Logs to file or prints to terminal
 - 🧩 Configurable via `config.ini`
 - 🧵 Threaded handling for socket clients
@@ -47,7 +47,7 @@ A Flask server that echoes all HTTP requests.
 python ListeningApp.py
 ```
 
-Accepts GET, POST, PUT, DELETE, PATCH
+Accepts GET, POST, PUT, DELETE, PATCH  
 Captures method, headers, and body
 
 Example using curl:
@@ -57,7 +57,7 @@ curl -X POST http://localhost:5000/test -d "hello=world"
 ```
 
 ### Socket Mode
-A TCP server that reads newline-terminated messages.
+A TCP server that reads newline-terminated messages.  
 Use any TCP client to send messages.
 
 > Responds with Socket: "Message received"
@@ -91,5 +91,5 @@ Body: hello=world
 MIT License. See LICENSE file for details.
 
 ## 🤝 Contributing
-Pull requests are welcome. 
+Pull requests are welcome.  
 For major changes, please open an issue first to discuss what you would like to change.
