@@ -1,6 +1,6 @@
 # 🛰️ Python Multi-Mode Traffic Listener
 
-A lightweight Python server that listens for incoming **REST**, **SOAP**, or **Socket** traffic on a specified port. Outputs can be printed to the console or logged to a file, based on configuration.
+A lightweight Python server that listens for incoming **REST** or **Socket** traffic on a specified port. Outputs can be printed to the console or logged to a file, based on configuration.
 
 ---
 
@@ -21,6 +21,7 @@ A lightweight Python server that listens for incoming **REST**, **SOAP**, or **S
 ```bash
 git clone https://github.com/luissequeira94/ListeningApp.git
 cd ListeningApp
+```
 
 ### 2. Install dependencies
 ```bash
