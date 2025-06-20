@@ -93,3 +93,7 @@ MIT License. See LICENSE file for details.
 ## 🤝 Contributing
 Pull requests are welcome.  
 For major changes, please open an issue first to discuss what you would like to change.
+
+## Buy Me a Coffee
+Like this content? Wanna help me and keep the cadence? Buy me a Coffee! - https://coff.ee/novabyt3
+Thank you!! <3 
